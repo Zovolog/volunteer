@@ -14,7 +14,7 @@ export function MainPage() {
           <Link className="main-page-link" to="/need-help">
             Потрібна допомога!
           </Link>
-          <Link className="main-page-link">Укр/Eng</Link>
+          <Link className="main-page-link" to="/en">Укр/Eng</Link>
         </div>
       </header>
       <div className="main-content">

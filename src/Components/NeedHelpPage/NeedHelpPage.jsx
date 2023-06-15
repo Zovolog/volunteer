@@ -13,7 +13,7 @@ export function NeedHelpPage() {
           <Link className="main-page-link" to="/need-help">
             Потрібна допомога!
           </Link>
-          <Link className="main-page-link">Укр/Eng</Link>
+          <Link className="main-page-link" to="/want-helpEn">Укр/Eng</Link>
         </div>
       </header>
       <div className="page-form">
@@ -32,7 +32,7 @@ export function NeedHelpPage() {
         <div className="input-block">
           Коментар: <input type="text" placeholder="Коментар..." />
         </div>
-        <button className="bt-send">Зберегти</button>
+        <button className="bt-send"><Link to="/">Зберегти</Link></button>
       </div>
       <p className="text-center">ЧИМ ВИ МОЖЕТЕ ДОПОМОГТИ?</p>
       <div className="help-block-info">

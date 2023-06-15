@@ -1,41 +1,41 @@
 import { Link } from "react-router-dom";
 import "./WantHelpPage.css";
-export function WantHelpPage() {
+export function WantHelpPageEn() {
   return (
     <div style={{ backgroundColor: "#3A7B44" }}>
       <header className="header-wrapper" style={{ backgroundColor: "#3A7B44" }}>
-        <Link to="/">
+        <Link to="/en">
           <img src="/img/logo.png" height="100px" />
         </Link>
         <div className="header-container">
-          <Link className="main-page-link" to="/want-help">
-            Хочу допомогти!
+          <Link className="main-page-link" to="/want-helpEn">
+            Want help!
           </Link>
-          <Link className="main-page-link" to="/need-help">
-            Потрібна допомога!
+          <Link className="main-page-link" to="/need-helpEn">
+            Need help!
           </Link>
-          <Link className="main-page-link" to="need-helpEn">Укр/Eng</Link>
+          <Link className="main-page-link" to="/need-help">Укр/Eng</Link>
         </div>
       </header>
       <div className="page-form">
         <div className="input-block">
-          Контакти: <input type="text" placeholder="Контакти..." />
+          Contacts: <input type="text" placeholder="Adres and other..." />
         </div>
         <div className="input-block">
-          Ім’я: <input type="text" placeholder="Ім’я..." />
+          Name: <input type="text" placeholder="John..." />
         </div>
         <div className="input-block">
           Email: <input type="text" placeholder="Email..." />
         </div>
         <div className="input-block">
-          Телефон: <input type="text" placeholder="Телефон..." />
+          Phone: <input type="text" placeholder="+38 (099) 9..." />
         </div>
         <div className="input-block">
-          Коментар: <input type="text" placeholder="Коментар..." />
+          Comment: <input type="text" placeholder="I need a..." />
         </div>
-        <button className="bt-send"><Link to="/">Зберегти</Link></button>
+        <button className="bt-send"><Link to="/en">Save</Link></button>
       </div>
-      <p className="text-center">Ми можемо допомогти</p>
+      <p className="text-center">We can help</p>
       <div className="help-block-info">
         <img
           src="/img/Rectangle18.png"
@@ -55,16 +55,16 @@ export function WantHelpPage() {
       </div>
       <div className="txt-info-row">
         <p className="txt-info">
-          Ми можемо допомогти зібрати необхідний одяг для пожертвування. Ваші
-          речі проживуть друге життя та принесуть користь
+        We can help collect needed clothing for donation. yours
+          things will live a second life and bring benefits
         </p>
         <p className="txt-info">
-          Ми можемо допомогти знайти одяг для потребуючих, підготуватися до
-          зміни сезону чи життєвих складнощів.
+        We can help find clothes for those in need, prepare for
+          season changes or life's difficulties.
         </p>
         <p className="txt-info">
-          Ми можемо допомогти знайти моральну та фінансову підтримку, поширити
-          добро та турботу
+          We can help find moral and financial support, spread
+          kindness and care
         </p>
       </div>
       <footer style={{ backgroundColor: "#3A7B44" }}>
@@ -85,16 +85,16 @@ export function WantHelpPage() {
               </li>
               <li>
                 <img src="/img/LOC.png" height="30px" />
-                Офіс:м. Львів, вул. Героїв УПА, 73, 7 корпус, 7 поверх
+                Office: Lviv city, UPA Heroes st., 73, 7 corp., 7 flour
               </li>
               <li>
                 <img src="/img/LOC.png" height="30px" />
-                Офіс:м. Львів, вул. Героїв УПА, 73, 7 корпус, 7 поверх
+                Office: Lviv city, UPA Heroes st., 73, 7 corp., 7 flour
               </li>
               <li>
                 <img src="/img/TEL.png" height="30px" />
                 <ul className="list-hours">
-                  <li>ТЕЛЕФОНИ:</li>
+                  <li>PHONES:</li>
                   <li>+38(095)578-90-60</li>
                   <li>+38(063)466-66-54</li>
                   <li>+38(063)466-66-54</li>
@@ -104,14 +104,14 @@ export function WantHelpPage() {
           </div>
           <div>
             <ul className="list-hours">
-              <li>РЕЖИМ РОБОТИ:</li>
-              <li>Пн-Пт з 9:00 до 17:00</li>
-              <li>Сб, Нд - вихідні</li>
+              <li>WORKS:</li>
+              <li>Mon-Fri grom 9:00 AM to 5:00 PM</li>
+              <li>Sut,Sun - weekend</li>
             </ul>
           </div>
           <div style={{ display: "flex" }}>
             <span className="list-hours" style={{ marginRight: "20px" }}>
-              Поширити у соц мережах:{" "}
+              Share:{" "}
             </span>
             <ul>
               <li>
@@ -141,7 +141,7 @@ export function WantHelpPage() {
             paddingBottom: "20px",
           }}
         >
-          ПІДПИСКА НА РОЗСИЛКУ:
+          NEWSLETTER SUBSCRIPTION:
           <img src="/img/MAIL.png" />
         </p>
       </footer>
